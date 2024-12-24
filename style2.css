@@ -28,10 +28,13 @@ img {
     display: block;
 }
 
-.container { 
-	width: 80%;
-	 margin: auto; 
-	overflow: hidden; } /* Styles for mobile devices */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .image-container {
     display: flex; 
