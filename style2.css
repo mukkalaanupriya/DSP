@@ -22,11 +22,6 @@ a{font-size:1.35vw}
      width:20%;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
 
 .container { width: 80%;
 	    margin: auto;
@@ -34,12 +29,6 @@ img {
 	    box-sizing: border-box;
 	   }
 
-
-.image-container { position: absolute; 
-		  top: 0;
-		  left: 0; 
-		  padding: 20px; 
-		  } 
 
 @media (max-width: 1200px) {
 	body { font-size: 14px; 
