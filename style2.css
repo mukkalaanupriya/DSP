@@ -25,6 +25,7 @@ a{font-size:1.35vw}
 img {
     max-width: 100%;
     height: auto;
+    display: block;
 }
 
 .container { 
@@ -33,10 +34,11 @@ img {
 	overflow: hidden; } /* Styles for mobile devices */
 
 .image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; padding: 20px; /* Added padding for better spacing */
+    box-sizing: border-box;
 }
 
 
