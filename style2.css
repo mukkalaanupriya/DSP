@@ -22,10 +22,23 @@ a{font-size:1.35vw}
      width:20%;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .container { 
 	width: 80%;
 	 margin: auto; 
 	overflow: hidden; } /* Styles for mobile devices */
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 
  @media (max-width: 768px) { 
 	.container { 
