@@ -1,0 +1,49 @@
+<body>
+h1{color:red;
+   text-align:center;
+   font-size:2.84vw}
+
+h2{font-size:1.85vw}
+
+a{font-size:1.35vw}
+
+.left{background-color:white;
+      padding:20px;
+      float:left;
+      width:20%;}
+.main{background-color:white;
+      padding:20px;
+      float:left;
+      width:60%;
+      }
+.right{background-color:white;
+      padding:20px;
+      float:left;
+     width:20%;
+}
+
+.container { 
+	width: 80%;
+	 margin: auto; 
+	overflow: hidden; } /* Styles for mobile devices */
+
+ @media (max-width: 768px) { 
+	.container { 
+		width: 100%; 
+	} 
+
+	.left, .main, .right { 
+	width: 100%; 
+	float: none; } 
+	}
+      
+
+@media screen and (max-width:800px){
+.left,.main,.right{100%}
+}
+
+ul{font-size:1.5vw}
+
+ol{font-size:1.3vw}
+
+</body>
